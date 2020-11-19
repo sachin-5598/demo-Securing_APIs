@@ -9,13 +9,13 @@ https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
 
 ## Measures
 
-* [] Use middleware like helmet, compression, cors
-* [] Rate limit by IP Address
-* [] Slow down the response time
-* [] Validate the custom API key header
-* [] Response with data
-  * [] Respond with the cached data
-  * [] Else make the 3rd party api call
+* [x] Use middleware like helmet, compression, cors
+* [x] Rate limit by IP Address
+* [x] Slow down the response time
+* [x] Validate the custom API key header
+* [x] Response with data
+  * [x] Respond with the cached data
+  * [x] Else make the 3rd party api call
 * Order of the middlewares are important to prevent brute force 
 
 #### My api endpoint : so no one can see the nasa-api-key (API-Proxy hide it)
